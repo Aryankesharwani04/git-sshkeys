@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .video-recorder {
+    width: 300px;
+    height: 200px;
+    background-color: #000;
+    border-radius: 5px;
+    position: relative;
+  }
+  .start-recording, .stop-recording {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .stop-recording {
+    display: none;
+  }
